@@ -4,6 +4,10 @@
 
   background-repeat: no-repeat;
   margin-bottom: auto;
+  padding-top:50px;
+  padding-bottom: 50px;
+  padding-left: 1000px;
+  padding-right: 1000px;
 }
 body{
   justify-content: center;
@@ -29,10 +33,70 @@ body{
   padding-bottom: 50px;
   padding-left: 300px;
   padding-right: 300px;
+
 }
 #h1About{
   align:center;
 }
 #p1About{
   align:center;
+}
+#Services{
+    background-image: url('assets/backgrounds/s_image.jpg');
+    color: white;
+    padding-top:50px;
+    padding-bottom: 50px;
+    padding-left: 300px;
+    padding-right: 300px;
+
+}
+
+#What_we_do{
+  background-color:#EDE6E3;
+  padding-top:50px;
+  padding-bottom: 50px;
+  padding-left: 300px;
+  padding-right: 300px;
+
+
+}
+.container_design{
+  align-items:left;
+}
+.container_dev{
+  justify-content: center;
+}
+/*.container_product{
+  justify:right;
+}*/
+#Table_whatwedo{
+  display:Table_whatwedo;
+}
+#Table_caption{
+  display: table-caption;
+}
+
+
+.Table_Tshirt {
+    display: table;
+    background-color: #E7E5E5;
+}
+.Heading {
+    display: table-row;
+    font-weight: bold;
+    text-align: center;
+}
+.Row {
+    display: table-row;
+}
+.Cell {
+    display: table-cell;
+    border: solid;
+    border-width: thin;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 0;
+}
+.Tshirt_Cell{
+    color: #7D8730;
 }
