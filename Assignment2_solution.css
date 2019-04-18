@@ -1,0 +1,38 @@
+
+#welcome{
+  background-image: url('assets/backgrounds/h_img.jpg');
+
+  background-repeat: no-repeat;
+  margin-bottom: auto;
+}
+body{
+  justify-content: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+
+#h1welcome{
+  color: white;
+  text-align: center;
+}
+#p1welcome{
+  color: white;
+  text-align: center;
+}
+#About_us{
+  background-color:#EDE6E3;
+  color: black;
+  align:center;
+  margin-top: 0;
+  padding-top:50px;
+  padding-bottom: 50px;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+#h1About{
+  align:center;
+}
+#p1About{
+  align:center;
+}
