@@ -118,3 +118,22 @@ height: 1200px;
   color: white;
   text-align: center;
 }
+.container_Textarea{
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0); /* Black background with 0.5 opacity */
+}
+#textArea, #name, #email{
+    background: rgba(0, 0, 0, 0);
+    color: white;
+}
+.footer {
+    background-color: #EDE6E3;
+    padding-top: 30px;
+    margin: 0 auto;
+    align:center;
+    padding-top:50px;
+    padding-bottom: 50px;
+    padding-left: 300px;
+    padding-right: 300px;
+
+}
