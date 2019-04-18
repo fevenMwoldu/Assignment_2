@@ -4,10 +4,8 @@
 
   background-repeat: no-repeat;
   margin-bottom: auto;
-  padding-top:50px;
-  padding-bottom: 50px;
-  padding-left: 1000px;
-  padding-right: 1000px;
+
+
 }
 body{
   justify-content: center;
@@ -55,8 +53,9 @@ body{
   background-color:#EDE6E3;
   padding-top:50px;
   padding-bottom: 50px;
-  padding-left: 300px;
-  padding-right: 300px;
+  padding-left: 150px;
+  padding-right: 150px;
+
 
 
 }
@@ -99,4 +98,23 @@ body{
 }
 .Tshirt_Cell{
     color: #7D8730;
+}
+
+#img_work4, #img_work3, #img_work2, #img_work1, #img_work5, #img_work6, #img_work7, #img_work8{
+  max-height: 150px;
+max-width: 200px;
+width: 1200px;
+height: 1200px;
+}
+.container_contactUs{
+  background-image: url('assets/backgrounds/c_image.jpg');
+  padding-top:50px;
+  padding-bottom: 50px;
+  padding-left: 300px;
+  padding-right: 300px;
+
+}
+#h1contact_us{
+  color: white;
+  text-align: center;
 }
