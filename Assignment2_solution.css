@@ -1,10 +1,16 @@
 
 #welcome{
-  background-image: url('assets/backgrounds/h_img.jpg');
+  background-image: url('assets/backgrounds/h(resized)_img.jpg');
 
   background-repeat: no-repeat;
-  margin-bottom: auto;
-
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100% 100%;
+  padding-top:50px;
+  padding-bottom: 50px;
+  padding-left: 300px;
+  padding-right: 300px;
 
 }
 body{
@@ -33,6 +39,25 @@ body{
   padding-right: 300px;
 
 }
+
+.table {
+    display: table;
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-row {
+    display: table-row;
+}
+
+.table-cell {
+    display: table-cell;
+   /* border: 1px solid #abc;*/
+    padding: 0.5em;
+}
+
+
 #h1About{
   align:center;
 }
@@ -132,8 +157,11 @@ height: 1200px;
     margin: 0 auto;
     align:center;
     padding-top:50px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     padding-left: 300px;
     padding-right: 300px;
+}
 
+#p1footer, #p2footer{
+  text-align: center;
 }
