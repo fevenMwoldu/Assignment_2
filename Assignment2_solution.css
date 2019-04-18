@@ -1,3 +1,20 @@
+body{
+  justify-content: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+::-webkit-input-placeholder { /* Edge */
+  color: white;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: white;
+}
+
+::placeholder {
+  color: white;
+}
 
 #welcome{
   background-image: url('assets/backgrounds/h(resized)_img.jpg');
@@ -11,14 +28,11 @@
   padding-bottom: 50px;
   padding-left: 300px;
   padding-right: 300px;
-
-}
-body{
   justify-content: center;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
 }
-
 
 #h1welcome{
   color: white;
@@ -59,7 +73,7 @@ body{
 
 
 #h1About{
-  align:center;
+text-align: center;
 }
 #p1About{
   align:center;
@@ -73,6 +87,9 @@ body{
     padding-right: 300px;
 
 }
+#h1Service{
+  text-align: center;
+}
 
 #What_we_do{
   background-color:#EDE6E3;
@@ -80,9 +97,9 @@ body{
   padding-bottom: 50px;
   padding-left: 150px;
   padding-right: 150px;
-
-
-
+}
+#h1what_we_do{
+  text-align: center;
 }
 .container_design{
   align-items:left;
@@ -100,29 +117,8 @@ body{
   display: table-caption;
 }
 
-
-.Table_Tshirt {
-    display: table;
-    background-color: #E7E5E5;
-}
-.Heading {
-    display: table-row;
-    font-weight: bold;
-    text-align: center;
-}
-.Row {
-    display: table-row;
-}
-.Cell {
-    display: table-cell;
-    border: solid;
-    border-width: thin;
-    padding-left: 5px;
-    padding-right: 5px;
-    border: 0;
-}
-.Tshirt_Cell{
-    color: #7D8730;
+#h1portofolio{
+  text-align: center;
 }
 
 #img_work4, #img_work3, #img_work2, #img_work1, #img_work5, #img_work6, #img_work7, #img_work8{
@@ -131,6 +127,7 @@ max-width: 200px;
 width: 1200px;
 height: 1200px;
 }
+
 .container_contactUs{
   background-image: url('assets/backgrounds/c_image.jpg');
   padding-top:50px;
@@ -143,14 +140,44 @@ height: 1200px;
   color: white;
   text-align: center;
 }
+
 .container_Textarea{
   background: rgb(0, 0, 0); /* Fallback color */
   background: rgba(0, 0, 0, 0); /* Black background with 0.5 opacity */
 }
+
 #textArea, #name, #email{
     background: rgba(0, 0, 0, 0);
     color: white;
 }
+
+#textArea {
+  height: 100px;
+  width: 100%;
+ -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.cform-row-2 {
+  clear: both;
+  padding-top: 10px;
+
+}
+
+.cform-row-1 #name {
+  float: left;
+}
+
+.cform-row-1 #email {
+  float: right;
+}
+
+
 .footer {
     background-color: #EDE6E3;
     padding-top: 30px;
