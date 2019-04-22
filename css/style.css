@@ -1,0 +1,229 @@
+/* Global */
+
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+body {
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    font: 15px/1.5 Helvetica sans-serif;
+    background-color: #eff0e0;
+}
+
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+::-webkit-input-placeholder {
+    /* Edge */
+    color: white;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: white;
+}
+
+::placeholder {
+    color: white;
+}
+
+
+/* Header */
+
+#welcome {
+    background: url('../assets/backgrounds/h_img.jpg') no-repeat fixed center;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 300px;
+    padding-right: 300px;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+#h1welcome {
+    color: white;
+    text-align: center;
+}
+
+#p1welcome {
+    color: white;
+    text-align: center;
+}
+
+
+/* About Us*/
+
+#about-us {
+    background-color: #eff0e0;
+    color: black;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+#about-us h1 {
+    text-align: center;
+}
+
+#about-us p {
+    text-align: center;
+}
+
+
+/* Services */
+
+#services {
+    background-image: url('../assets/backgrounds/s_image.jpg');
+    color: white;
+    padding: 50px 300px 50px 300px;
+}
+
+#services h1 {
+    text-align: center;
+}
+
+#services p {
+    text-align: center;
+    font-weight: lighter;
+}
+
+
+/* What_we_do category */
+
+#what-we-do {
+    text-align: center;
+    padding: 50px 40px 50px 40px;
+    background-color: #eff0e0;
+    width: 100%;
+}
+
+#what-we-do h1 {
+    margin-bottom: 80px;
+}
+
+.service {
+    float: left;
+    width: 33%;
+    height: 300px;
+}
+
+.service+.service {
+    margin-left: 5px;
+}
+
+
+/* Portfolio */
+
+#portfolio {
+    color: #706f6a;
+    text-align: center;
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin: 0 auto;
+    background-color: #eff0e0;
+}
+
+#gallery {
+    background-color: #eff0e0;
+    min-height: 640px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.ga-item {
+    float: left;
+    margin: 1%;
+    width: 23%;
+}
+
+.ga-item img {
+    width: 100%;
+    height: auto;
+}
+
+
+/*contact category*/
+
+.contact {
+    background: url('../assets/backgrounds/c_image.jpg') no-repeat fixed center;
+    padding: 50px 300px 50px 300px;
+    background-size: cover;
+}
+
+.contact h1 {
+    color: white;
+    text-align: center;
+}
+
+#textArea,
+#name,
+#email {
+    background: rgba(0, 0, 0, 0);
+    color: white;
+    width: 300px;
+    border: 2px white solid;
+    padding-left: 20px;
+}
+
+#textArea {
+    height: 100px;
+    width: 100%;
+}
+
+.cform-row-2 {
+    clear: both;
+    padding-top: 15px;
+}
+
+.cform-row-1 #name {
+    float: left;
+    height: 30px;
+}
+
+.cform-row-1 #email {
+    float: right;
+    height: 30px;
+}
+
+
+/*footer*/
+
+#footer {
+    background-color: #EDE6E3;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 300px 50px 300px;
+}
+
+#footer img {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 36px;
+    height: 36px;
+}
+
+#footer p {
+    text-align: center;
+}
